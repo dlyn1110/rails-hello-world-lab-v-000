@@ -153,3 +153,4 @@ Processing by StaticController#hello_world as HTML
   Rendered static/hello_world.html.erb within layouts/application (2.7ms)
 Completed 200 OK in 744ms (Views: 731.3ms | ActiveRecord: 0.0ms)
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
